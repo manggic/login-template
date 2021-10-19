@@ -5,13 +5,14 @@ import { Carousel } from "antd";
 import SignInFirst from "./signInComponent/SignInFirst";
 import SignInSecond from "./signInComponent/SignInSecond";
 import SignInThree from "./signInComponent/SignInThree";
+
 const comp = [SignInFirst, SignInSecond, SignInThree];
 
 function App() {
   const contentStyle = {
     height: "90vh",
     color: "black",
-    lineHeight: "160px",
+    // lineHeight: "160px",
     textAlign: "center",
   };
 
